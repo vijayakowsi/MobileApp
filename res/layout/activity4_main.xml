@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/Karigai_Tailors"
+        android:textColor="#ff7aff24"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView"
+        android:ems="10"
+        android:text="@string/BLOUSE"
+        android:textColor="#ffff25e6"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/shoulder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText"
+        android:cursorVisible="true"
+        android:inputType="numberSigned"
+        android:singleLine="true"
+        android:hint="@string/shoulder" />
+
+    <TextView
+        android:id="@+id/CHUDITHAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/waist"
+     
+        android:ems="10"
+        android:hint="@string/CHUDITHAR"
+        android:textColor="#ffff25e6"
+        android:textColorHint="#ffff25e6"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/waist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/top"
+        android:cursorVisible="true"
+        android:inputType="numberSigned"
+        android:singleLine="true"
+        android:hint="@string/Waist_size" />
+
+    <EditText
+        android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/armhole1"
+ 
+        android:cursorVisible="true"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:hint="@string/top_length" />
+
+    <EditText
+        android:id="@+id/armhole1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/BOTTOM"
+        android:cursorVisible="true"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:hint="@string/armhole" />
+
+    <TextView
+        android:id="@+id/BOTTOM"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/front1"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:text="@string/CHUDI_BOTTOM"
+        android:textColor="#ffff25e6"
+        android:textColorHint="#ffff25e6"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/front1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/back1"
+        android:cursorVisible="true"
+        android:inputType="numberSigned"
+        android:singleLine="true"
+        android:hint="@string/front_rise" />
+
+    <EditText
+        android:id="@+id/back1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/save"
+       
+        android:cursorVisible="true"
+        android:inputType="numberSigned"
+        android:singleLine="true"
+        android:hint="@string/back_rise" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:clickable="true"
+        android:text="@string/proceed" />
+
+    <EditText
+        android:id="@+id/chest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/shoulder"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:singleLine="true"
+        android:hint="@string/chest" />
+
+    <EditText
+        android:id="@+id/back"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/CHUDITHAR"
+        android:layout_alignParentLeft="true"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:singleLine="true"
+        android:hint="@string/back_rise" />
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+     <TextView
+       android:id="@+id/textView2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/Karigai_Tailors"
+       android:textColor="#ff7aff24"
+       android:textSize="35sp" />
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/dots1"
+          android:textColor="#ff7aff24"
+          android:textSize="35sp" />
+
+     <EditText
+         android:id="@+id/editText1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:hint="@string/NAME"
+         android:textColorHint="#ffff25e6" />
+
+     <EditText
+         android:id="@+id/editText2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:hint="@string/TRACK_ID"
+         android:inputType="phone"
+         android:textColorHint="#ffff25e6" >
+
+         <requestFocus />
+     </EditText>
+
+     <EditText
+         android:id="@+id/editText3"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:hint="@string/DRESS_COUNT"
+         android:inputType="phone"
+         android:textColorHint="#ffff25e6" />
+
+     <EditText
+         android:id="@+id/editText4"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:hint="@string/TOTAL_AMOUNT"
+         android:inputType="phone"
+         android:textColorHint="#ffff25e6" />
+
+     <TextView
+         android:id="@+id/TextView01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/dots1"
+         android:textColor="#ff7aff24"
+         android:textSize="35sp" />
+
+     <EditText
+         android:id="@+id/EditText01"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:hint="@string/PAID_AMOUNT"
+         android:textColorHint="#ffff25e6" />
+
+     <EditText
+         android:id="@+id/EditText02"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:ems="10"
+         android:hint="@string/BALANCE_AMOUNT"
+         android:textColorHint="#ffff25e6" />
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/PAID" />
+
+     <Button
+         android:id="@+id/button2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/amount" />
+
+</LinearLayout>
